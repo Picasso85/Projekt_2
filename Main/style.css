@@ -362,7 +362,7 @@ section h2 {
 section h2:hover {
   color:transparent;
   transition: all 1s ease-in-out;
-  transform: translateX(1.4em);
+  transform: translateX(-1.4em);
 }
 
 @keyframes slideLeft {
