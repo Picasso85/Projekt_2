@@ -106,7 +106,7 @@ p {
   line-height: 1em
 }
 
-/* selection stuff */
+/* selection stuff & wrapper for mobil version*/
 
 ::selection {
   background-color: var(--color_section_4);
@@ -120,7 +120,7 @@ header {
   justify-content: space-between;
   background-color: var(--color_section_3);
   padding: 1rem 4rem;
-  z-index: 10;
+  z-index: 2;
   position: sticky;
   top: 0;
 }
@@ -260,7 +260,6 @@ nav {
   }
 }
 
-
 /* Hero section */
 
 section.home{
@@ -274,7 +273,6 @@ section.home{
 
 .back_video {
   position: absolute;
-  height: 100vh;
   width: auto;
   z-index: -1;
 }
@@ -366,7 +364,7 @@ section h2 {
 section h2:hover {
   color:transparent;
   transition: all 1s ease-in-out;
-  transform: translateX(1.4em);
+  transform: translateX(-1em);
 }
 
 @keyframes slideLeft {
@@ -518,7 +516,7 @@ article {
   height: auto;
   background-color: var(--color_section_0);
   border-radius: 1rem;
-  margin: 2rem 1rem;
+  margin-bottom: 2rem;
   padding: 1rem 1rem;
   max-width: 66ch;
   box-shadow: var(--shadow);
@@ -579,8 +577,8 @@ section.gallery {
 
 
 .grid_img img {
-  height: 25rem;
-  width: 25rem;
+  height: 20rem;
+  width: 20rem;
   border-radius: 2rem;
   box-shadow: var(--shadow);
   border: 0.1rem solid var(--color_section_2);
