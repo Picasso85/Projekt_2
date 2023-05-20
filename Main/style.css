@@ -338,13 +338,11 @@ span {
   color: var(--color_section_4);
   transform: scale(1.4);
   padding: 0.2em 0.2em;
-  width: fit-content;
 }
 
 .color_2 {
   color: var(--textColor_black);
-  transform: scale(1.4);
-  width: auto;
+  transform: scale(2);
 }
 
 section h1 {
@@ -364,7 +362,7 @@ section h2 {
 section h2:hover {
   color: transparent;
   transition: all 1s ease-in-out;
-  transform: translateX(-1em);
+  transform: translateX(1.4em);
 }
 
 @keyframes slideLeft {
@@ -475,15 +473,15 @@ section.gallery h2,
 section.contact h2 {
   display: flex;
   justify-content: center;
-  padding: 2em 2em;
+  text-align: center;
+  padding: 1em 1em;
+  width: 100%;
 }
 
 section.about h2,
 section.gallery h2,
 section.contact h2 {
   font-size: max(1.5em, 1.23em + 2cqi);
-  transform: none;
-  transition: none;
   color: var(--color_main);
 }
 
@@ -521,6 +519,11 @@ article img {
   border-radius: 0 1rem 0 1rem;
   box-shadow: var(--shadow);
   border: solid 0.1rem var(--color_section_3);
+}
+
+article h3 {
+  display: flex;
+  margin: 0 auto;
 }
 
 .article_content {
